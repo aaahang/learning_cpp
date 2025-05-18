@@ -39,7 +39,7 @@ int  test_memery_class()
         weak_ptr<oct2> oct2_ptr_shared1;
         {
             // unique_ptr<oct2> oct2_ptr(new oct2); // 智能指针的构造函数使用了explicit
-            shared_ptr<oct2> oct2_ptr_shared(new  oct2);
+            shared_ptr<oct2> oct2_ptr_shared(new  oct2); //  所有引用都消失才将内存删除
             oct2_ptr_shared1  = oct2_ptr_shared ;
 
             // oct2 * oct2_ptr =  new oct2;

@@ -1,0 +1,59 @@
+-m
+i386pep
+-Bdynamic
+-o
+untitled1.exe
+C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o
+C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o
+-LC:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0
+-LC:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc
+-LC:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib
+-LC:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib
+-LC:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib
+-LC:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..
+--whole-archive
+CMakeFiles\\untitled1.dir/objects.a
+--no-whole-archive
+--out-implib
+libuntitled1.dll.a
+--major-image-version
+0
+--minor-image-version
+0
+-llibs
+-Bstatic
+-lglfw3
+-Bdynamic
+-lkernel32
+-luser32
+-lgdi32
+-lwinspool
+-lshell32
+-lole32
+-loleaut32
+-luuid
+-lcomdlg32
+-ladvapi32
+-lstdc++
+-lmingw32
+-lgcc_s
+-lgcc
+-lmoldname
+-lmingwex
+-lmsvcrt
+-lkernel32
+-lpthread
+-ladvapi32
+-lshell32
+-luser32
+-lkernel32
+-liconv
+-lmingw32
+-lgcc_s
+-lgcc
+-lmoldname
+-lmingwex
+-lmsvcrt
+-lkernel32
+C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o
+C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o

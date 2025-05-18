@@ -1,0 +1,11 @@
+# ninja log v6
+8	1167	7680414458064269	CMakeFiles/untitled1.dir/src/inherit.cpp.obj	6567a3e97c04f6c7
+3	164	7680414458013822	CMakeFiles/untitled1.dir/main.cpp.obj	1bf37ece6c46b3e8
+39	1253	7680434703453738	untitled1.exe	4101dfbb32b8f2e1
+11	1358	7680430652192598	CMakeFiles/untitled1.dir/src/copy_constructor.cpp.obj	f4e24877204de0a6
+25	921	7680414458226458	CMakeFiles/untitled1.dir/src/operator.cpp.obj	59d666d7969eec10
+13	1037	7680414458104282	CMakeFiles/untitled1.dir/src/character.cpp.obj	48c1bb81ce9c94ac
+19	1129	7680414458175481	CMakeFiles/untitled1.dir/src/memery_class.cpp.obj	81cc2df9d2aaf0c8
+3	444	7680440695987570	build.ninja	49215d99ce9469a5
+5	486	7680440695987570	build.ninja	49215d99ce9469a5
+43	1407	7680440698094003	untitled1.exe	9bb97b1e470a95b9

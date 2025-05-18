@@ -11,6 +11,10 @@ add_executable(untitled1 main.cpp
         src/copy_constructor.cpp
         src/template.cpp
         src/array.cpp
+        src/thread.cpp
+        src/sort.cpp
+        src/type_change.cpp
+        src1/test1.cpp
 )
 #target_link_libraries(${PROJECT_NAME} libglfw3dll.a) #动态链接
 

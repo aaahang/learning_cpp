@@ -13,9 +13,9 @@ using namespace std;
 
 class origan_a {
 public:
-    origan_a():kk(10){}
+    origan_a():kk(11){}
     int kk;
-     mutable  int origan_a_count ;
+     mutable  int origan_a_count ; //在const函数中该参数可以改变
     int  origan_a_output() const{ // 使用const 标记为只读函数 即不改变类中成员
         origan_a_count++;
         cout << "origan_a_output" <<endl;
@@ -34,21 +34,34 @@ public:
     origan():x(0),y(0) {
         cout << "origan is initialization"<< endl;;
     }
-    origan(int ax):x(ax){}
+    origan(int ax):x(ax) {
+        cout << "{"<<__PRETTY_FUNCTION__ << "," << __LINE__<< "}" << endl;
+    }
     int origan_out() {
         cout<< "x is "<<x<<" y is " <<y <<" this is origan output"<<endl;
         return 0;
+    }
+    void using_virtual_funtion() {
+        cout << "{"<<__PRETTY_FUNCTION__ << "," << __LINE__<< "}" << endl;
+        output_x(); //如果不使用虚函数会使用当前类定义的函数 使用虚函数会使用子类定义的函数
     }
     virtual  void  output_x() {
         cout << "origan x  is " << x << endl;
     }
 };
+class component {
+public:
+    component() {
+        cout << "{"<<__PRETTY_FUNCTION__ << "," << __LINE__<< "}\n";
+    }
+};
 class inherit : public origan,public origan_a
 {
 public:
+    component t;
     int a,b,c;
     inherit():a(0),b(0),c(0){}
-    inherit(int ax) {
+    inherit(int ax):origan(10) {
         x = ax+1;
     }
     int origan_add(int xa,int ya) {
@@ -96,4 +109,5 @@ void  test_inherit() {
     // origan_a_output(object1);
     // cout << object1.origan_a_count;
     inherit object2 = 10;
+    object2.using_virtual_funtion();
 }

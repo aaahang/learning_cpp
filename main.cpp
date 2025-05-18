@@ -2,6 +2,6 @@
 
 
 int main() {
-    test_template();
+    test_inherit();
     return 0;
 }
